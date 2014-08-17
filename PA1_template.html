@@ -63,7 +63,10 @@ library(knitr)</code></pre>
 <pre><code>## Warning: package 'knitr' was built under R version 3.1.1</code></pre>
 <pre class="r"><code>library(markdown)</code></pre>
 <pre><code>## Warning: package 'markdown' was built under R version 3.1.1</code></pre>
-<pre class="r"><code># Go to my Home Directory, then grab data out of folder and read it in
+<pre class="r"><code>require(knitr)
+require(markdown)
+
+# Go to my Home Directory, then grab data out of folder and read it in
 setwd(&quot;C:/Users/Alan/Documents/Data Science Course (Coursera)/Reproducible Data Homework I&quot;)
 aData &lt;- read.csv(&quot;activity.csv&quot;, colClasses=c(&quot;integer&quot;, &quot;Date&quot;, &quot;integer&quot;))</code></pre>
 </div>
