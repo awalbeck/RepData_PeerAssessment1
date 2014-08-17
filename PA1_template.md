@@ -6,6 +6,8 @@ Following is the "R" code that performs this part "1" of the assignment:
 
 ```r
 library(ggplot2)
+library(knitr)
+library(markdown)
 
 # Go to my Home Directory, then grab data out of folder and read it in
 setwd("C:/Users/Alan/Documents/Data Science Course (Coursera)/Reproducible Data Homework I")
