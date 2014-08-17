@@ -9,9 +9,6 @@ library(ggplot2)
 library(knitr)
 library(markdown)
 
-require(knitr)
-require(markdown)
-
 # Go to my Home Directory, then grab data out of folder and read it in
 setwd("C:/Users/Alan/Documents/Data Science Course (Coursera)/Reproducible Data Homework I")
 aData <- read.csv("activity.csv", colClasses=c("integer", "Date", "integer"))
