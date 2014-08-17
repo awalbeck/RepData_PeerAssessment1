@@ -1,6 +1,5 @@
 # Reproducible Research: Peer Assessment 1
 
-
 ## Loading and preprocessing the data
 Following is the "R" code that performs this part "1" of the assignment:
 ```{r}

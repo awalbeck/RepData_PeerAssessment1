@@ -6,14 +6,11 @@ library(ggplot2)
 library(knitr)
 library(markdown)
 
-require(knitr)
-require(markdown)
-
 # Go to my Home Directory, then grab data out of folder and read it in
 setwd("C:/Users/Alan/Documents/Data Science Course (Coursera)/Reproducible Data Homework I")
 aData <- read.csv("activity.csv", colClasses=c("integer", "Date", "integer"))
 # aData <- na.omit(aData)
-knit("PA1_template.Rmd")
+knit2html("PA1_template.Rmd")
 
 #----------------------------------------------------------------------------------------
 # Plot 1a and 1b (Mean and medium # of steps taken each day)
